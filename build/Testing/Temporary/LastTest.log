@@ -1,10 +1,10 @@
-Start testing: Jul 11 17:33 CEST
+Start testing: Jul 11 15:36 UTC
 ----------------------------------------------------------
 1/1 Testing: test_calc
 1/1 Test: test_calc
-Command: "/tmp/agent-worktrees-example/bfix-03/build/test_calc"
-Directory: /tmp/agent-worktrees-example/bfix-03/build
-"test_calc" start time: Jul 11 17:33 CEST
+Command: "/workspace/build/test_calc"
+Directory: /workspace/build
+"test_calc" start time: Jul 11 15:36 UTC
 Output:
 ----------------------------------------------------------
 All tests passed!
@@ -12,8 +12,8 @@ All tests passed!
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_calc" end time: Jul 11 17:33 CEST
+"test_calc" end time: Jul 11 15:36 UTC
 "test_calc" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 11 17:33 CEST
+End testing: Jul 11 15:36 UTC

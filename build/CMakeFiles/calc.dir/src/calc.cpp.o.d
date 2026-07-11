@@ -1,4 +1,2 @@
-CMakeFiles/calc.dir/src/calc.cpp.o: \
- /tmp/agent-worktrees-example/bfix-03/src/calc.cpp \
- /usr/include/stdc-predef.h \
- /tmp/agent-worktrees-example/bfix-03/src/calc.h
+CMakeFiles/calc.dir/src/calc.cpp.o: /workspace/src/calc.cpp \
+ /usr/include/stdc-predef.h /workspace/src/calc.h

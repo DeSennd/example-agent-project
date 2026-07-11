@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test_calc.dir/link.d CMakeFiles/test_calc.dir/tests/test_calc.cpp.o -o test_calc  libcalc.a
+/usr/bin/c++ CMakeFiles/test_calc.dir/tests/test_calc.cpp.o -o test_calc  libcalc.a 
