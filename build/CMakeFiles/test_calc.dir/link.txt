@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_calc.dir/tests/test_calc.cpp.o -o test_calc  libcalc.a 
