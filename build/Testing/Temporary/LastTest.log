@@ -1,0 +1,19 @@
+Start testing: Jul 11 14:24 CEST
+----------------------------------------------------------
+1/1 Testing: test_calc
+1/1 Test: test_calc
+Command: "/tmp/agent-worktrees-example/bfix-02/build/test_calc"
+Directory: /tmp/agent-worktrees-example/bfix-02/build
+"test_calc" start time: Jul 11 14:24 CEST
+Output:
+----------------------------------------------------------
+test_calc: /tmp/agent-worktrees-example/bfix-02/tests/test_calc.cpp:7: int main(): Assertion `subtract(5, 3) == 2' failed.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"test_calc" end time: Jul 11 14:24 CEST
+"test_calc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 11 14:24 CEST
