@@ -1,5 +1,5 @@
 CMakeFiles/test_calc.dir/tests/test_calc.cpp.o: \
- /tmp/agent-worktrees-example/bfix-01/tests/test_calc.cpp \
+ /tmp/agent-worktrees-example/bfix-02/tests/test_calc.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/16/cassert \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -143,4 +143,4 @@ CMakeFiles/test_calc.dir/tests/test_calc.cpp.o: \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc \
- /tmp/agent-worktrees-example/bfix-01/src/calc.h
+ /tmp/agent-worktrees-example/bfix-02/src/calc.h
