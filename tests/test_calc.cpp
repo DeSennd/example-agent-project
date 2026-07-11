@@ -7,6 +7,7 @@ int main() {
     assert(subtract(5, 3) == 2);
     assert(multiply(4, 3) == 12);
     assert(divide(10, 2) == 5);
+    assert(power(2, 3) == 8);
     std::cout << "All tests passed!" << std::endl;
     return 0;
 }
