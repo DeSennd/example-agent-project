@@ -1,6 +1,0 @@
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/calc.dir
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/example.dir
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/test_calc.dir
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/test.dir
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/edit_cache.dir
-/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/rebuild_cache.dir
