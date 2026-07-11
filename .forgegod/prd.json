@@ -63,7 +63,7 @@
         "src/main.cpp",
         "tests/test_calc.cpp"
       ],
-      "iterations": 2,
+      "iterations": 4,
       "max_iterations": 3,
       "error_log": [],
       "completed_at": "",
