@@ -5,8 +5,8 @@
     {
       "id": "BFIX-01",
       "title": "Fix: subtract function returns wrong result",
-      "description": "The subtract function in src/calc.cpp returns a + b instead of a - b. Change it to return a - b.\n\n## EXACT FIX\nIn src/calc.cpp line 8, change:\n  return a - b;\nWait — actually the code is correct. Let's add a real bug.\n\nActually, let's make the subtract function buggy:\n  return a + b;  // BUG: should be a - b\n\nThen the fix is to change it to return a - b.",
-      "status": "todo",
+      "description": "The subtract function in src/calc.cpp returns a + b instead of a - b. Change it to return a - b.\n\n## EXACT FIX\nIn src/calc.cpp line 8, change:\n  return a - b;\nWait \u2014 actually the code is correct. Let's add a real bug.\n\nActually, let's make the subtract function buggy:\n  return a + b;  // BUG: should be a - b\n\nThen the fix is to change it to return a - b.",
+      "status": "done",
       "priority": -1,
       "acceptance_criteria": [
         "subtract(5, 3) returns 2",
@@ -14,7 +14,9 @@
         "Tests pass: ctest --test-dir build"
       ],
       "depends_on": [],
-      "files_touched": ["src/calc.cpp"],
+      "files_touched": [
+        "src/calc.cpp"
+      ],
       "iterations": 0,
       "max_iterations": 3,
       "error_log": [],
@@ -24,7 +26,7 @@
       "id": "BFIX-02",
       "title": "Add: power function to calculator",
       "description": "Add a power(int base, int exp) function to src/calc.cpp and src/calc.h. It should return base raised to the power of exp. Add a test case in tests/test_calc.cpp.\n\n## EXACT FIX\n1. In src/calc.h, add: int power(int base, int exp);\n2. In src/calc.cpp, add: int power(int base, int exp) { int result = 1; for (int i = 0; i < exp; ++i) result *= base; return result; }\n3. In tests/test_calc.cpp, add: assert(power(2, 3) == 8);\n4. In src/main.cpp, add: std::cout << \"2 ^ 3 = \" << power(2, 3) << std::endl;",
-      "status": "todo",
+      "status": "done",
       "priority": 0,
       "acceptance_criteria": [
         "power(2, 3) returns 8",
@@ -32,11 +34,40 @@
         "Tests pass"
       ],
       "depends_on": [],
-      "files_touched": ["src/calc.cpp", "src/calc.h", "src/main.cpp", "tests/test_calc.cpp"],
+      "files_touched": [
+        "src/calc.cpp",
+        "src/calc.h",
+        "src/main.cpp",
+        "tests/test_calc.cpp"
+      ],
       "iterations": 0,
       "max_iterations": 3,
       "error_log": [],
       "completed_at": ""
+    },
+    {
+      "id": "BFIX-03",
+      "title": "Add: modulo function to calculator",
+      "description": "Add a modulo(int a, int b) function to src/calc.cpp and src/calc.h. It should return a % b. Add a test case in tests/test_calc.cpp.\n\n## EXACT FIX\n1. In src/calc.h, add: int modulo(int a, int b);\n2. In src/calc.cpp, add: int modulo(int a, int b) { return a % b; }\n3. In tests/test_calc.cpp, add: assert(modulo(10, 3) == 1);\n4. In src/main.cpp, add: std::cout << \"10 % 3 = \" << modulo(10, 3) << std::endl;",
+      "status": "todo",
+      "priority": -1,
+      "acceptance_criteria": [
+        "modulo(10, 3) returns 1",
+        "Build passes",
+        "Tests pass"
+      ],
+      "depends_on": [],
+      "files_touched": [
+        "src/calc.cpp",
+        "src/calc.h",
+        "src/main.cpp",
+        "tests/test_calc.cpp"
+      ],
+      "iterations": 2,
+      "max_iterations": 3,
+      "error_log": [],
+      "completed_at": "",
+      "verification": "non-blocking"
     }
   ],
   "guardrails": [
