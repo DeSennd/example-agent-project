@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/tmp/agent-worktrees-example/bfix-01/src
+CXX_INCLUDES = -I/tmp/agent-worktrees-example/bfix-02/src
 
 CXX_FLAGS = 
 
