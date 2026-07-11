@@ -49,7 +49,7 @@
       "id": "BFIX-03",
       "title": "Add: modulo function to calculator",
       "description": "Add a modulo(int a, int b) function to src/calc.cpp and src/calc.h. It should return a % b. Add a test case in tests/test_calc.cpp.\n\n## EXACT FIX\n1. In src/calc.h, add: int modulo(int a, int b);\n2. In src/calc.cpp, add: int modulo(int a, int b) { return a % b; }\n3. In tests/test_calc.cpp, add: assert(modulo(10, 3) == 1);\n4. In src/main.cpp, add: std::cout << \"10 % 3 = \" << modulo(10, 3) << std::endl;",
-      "status": "todo",
+      "status": "done",
       "priority": -1,
       "acceptance_criteria": [
         "modulo(10, 3) returns 1",
@@ -63,10 +63,10 @@
         "src/main.cpp",
         "tests/test_calc.cpp"
       ],
-      "iterations": 4,
+      "iterations": 5,
       "max_iterations": 3,
       "error_log": [],
-      "completed_at": "",
+      "completed_at": "2026-07-11T17:36:49.553790",
       "verification": "non-blocking"
     }
   ],
