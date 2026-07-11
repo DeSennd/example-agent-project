@@ -23,3 +23,7 @@ int power(int base, int exp) {
         result *= base;
     return result;
 }
+
+int modulo(int a, int b) {
+    return a % b;
+}

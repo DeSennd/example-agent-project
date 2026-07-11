@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/tmp/agent-worktrees-example/bfix-02/build/cmake_install.cmake"
+		"/tmp/agent-worktrees-example/bfix-03/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

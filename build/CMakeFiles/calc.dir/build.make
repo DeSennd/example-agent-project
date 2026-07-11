@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/agent-worktrees-example/bfix-02
+CMAKE_SOURCE_DIR = /tmp/agent-worktrees-example/bfix-03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/agent-worktrees-example/bfix-02/build
+CMAKE_BINARY_DIR = /tmp/agent-worktrees-example/bfix-03/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calc.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/calc.dir/codegen:
 .PHONY : CMakeFiles/calc.dir/codegen
 
 CMakeFiles/calc.dir/src/calc.cpp.o: CMakeFiles/calc.dir/flags.make
-CMakeFiles/calc.dir/src/calc.cpp.o: /tmp/agent-worktrees-example/bfix-02/src/calc.cpp
+CMakeFiles/calc.dir/src/calc.cpp.o: /tmp/agent-worktrees-example/bfix-03/src/calc.cpp
 CMakeFiles/calc.dir/src/calc.cpp.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc.dir/src/calc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/calc.cpp.o -MF CMakeFiles/calc.dir/src/calc.cpp.o.d -o CMakeFiles/calc.dir/src/calc.cpp.o -c /tmp/agent-worktrees-example/bfix-02/src/calc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/tmp/agent-worktrees-example/bfix-03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc.dir/src/calc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/calc.cpp.o -MF CMakeFiles/calc.dir/src/calc.cpp.o.d -o CMakeFiles/calc.dir/src/calc.cpp.o -c /tmp/agent-worktrees-example/bfix-03/src/calc.cpp
 
 CMakeFiles/calc.dir/src/calc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calc.dir/src/calc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/agent-worktrees-example/bfix-02/src/calc.cpp > CMakeFiles/calc.dir/src/calc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/agent-worktrees-example/bfix-03/src/calc.cpp > CMakeFiles/calc.dir/src/calc.cpp.i
 
 CMakeFiles/calc.dir/src/calc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calc.dir/src/calc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/agent-worktrees-example/bfix-02/src/calc.cpp -o CMakeFiles/calc.dir/src/calc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/agent-worktrees-example/bfix-03/src/calc.cpp -o CMakeFiles/calc.dir/src/calc.cpp.s
 
 # Object files for target calc
 calc_OBJECTS = \
@@ -96,7 +96,7 @@ calc_EXTERNAL_OBJECTS =
 libcalc.a: CMakeFiles/calc.dir/src/calc.cpp.o
 libcalc.a: CMakeFiles/calc.dir/build.make
 libcalc.a: CMakeFiles/calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/tmp/agent-worktrees-example/bfix-02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcalc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/tmp/agent-worktrees-example/bfix-03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcalc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/calc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/calc.dir/clean:
 .PHONY : CMakeFiles/calc.dir/clean
 
 CMakeFiles/calc.dir/depend:
-	cd /tmp/agent-worktrees-example/bfix-02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/agent-worktrees-example/bfix-02 /tmp/agent-worktrees-example/bfix-02 /tmp/agent-worktrees-example/bfix-02/build /tmp/agent-worktrees-example/bfix-02/build /tmp/agent-worktrees-example/bfix-02/build/CMakeFiles/calc.dir/DependInfo.cmake "--color=$(COLOR)" calc
+	cd /tmp/agent-worktrees-example/bfix-03/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/agent-worktrees-example/bfix-03 /tmp/agent-worktrees-example/bfix-03 /tmp/agent-worktrees-example/bfix-03/build /tmp/agent-worktrees-example/bfix-03/build /tmp/agent-worktrees-example/bfix-03/build/CMakeFiles/calc.dir/DependInfo.cmake "--color=$(COLOR)" calc
 .PHONY : CMakeFiles/calc.dir/depend
 
